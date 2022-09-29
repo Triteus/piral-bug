@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ComponentsState, ErrorComponentsState, Menu, Notifications, SwitchErrorInfo, MenuItemProps } from 'piral';
-import { Modals } from 'piral-modals';
+import { Modals } from 'piral';
 import { Link } from 'react-router-dom';
 
 const MenuItem: React.FC<MenuItemProps> = ({ children }) => <li className="nav-item">{children}</li>;
